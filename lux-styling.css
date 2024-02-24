@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
