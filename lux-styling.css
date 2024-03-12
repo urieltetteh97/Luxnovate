@@ -1,10 +1,38 @@
 body {
     margin: 0;
-    background-color: aliceblue;
+    background-image: url("images/3 bedroom 001.png");
+}
+div {
+    display: ;
+}
+.navbar {
+    background-color: white;
+    display: flex;
+    opacity: 50%;
+    max-width: auto;
+}
+nav{
+    display: flex;
+    
+}
+nav li {
+    list-style: none;
+    justify-content: space-evenly;
 }
 
-.menu {
+.Intro-header {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
+.h2text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: rgba(5, 143, 143, 0.499);
+    font-size: 80px;
+}
+
 
