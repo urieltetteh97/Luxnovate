@@ -21,15 +21,23 @@ body {
     flex-direction: row;
 }
 ul{
+    list-style-type: none;
     width: 800px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .navdiv li a{
+    font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: gray;
+    font-weight: 700;
+}
+
+li a:hover{
+    color: darkcyan;
+
 }
 
 .logo-container {
