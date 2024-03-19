@@ -1,29 +1,44 @@
+header{
+    display: flex;
+    justify-content: center`;
+}
+
+
 body {
     margin: 0;
     background-image: url("images/3 bedroom 001.png");
 }
-div {
-    display: ;
-}
+
 .navbar {
     background-color: white;
-    display: flex;
-    flex-direction: row;
     opacity: 50%;
     width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
-nav{
+.navdiv{
     display: flex;
+    flex-direction: row;
+}
+ul{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-evenly;
-    
 }
-li a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    list-style: none;
-    justify-content: space-evenly;
+
+.navdiv li a{
+    text-decoration: none;
+    color: black;
 }
+
+.logo-container {
+    position: inherit;
+    flex-direction: row;
+    padding-left: 15px;
+}
+
+
 
 .Intro-header {
     display: flex;
@@ -43,7 +58,10 @@ h2 {
     margin: 20px;
 }
 h4 {
+    font-family: Arial, Helvetica, sans-serif;
     
 }
+
+
 
 
