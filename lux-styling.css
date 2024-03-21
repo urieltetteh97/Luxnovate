@@ -74,6 +74,31 @@ h4 {
     
 }
 
+.about div {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/llhgrfc.jpg");
+    width: auto;
+    height: auto;
+}
+.aboutinfocontainer {
+    display: inherit;
+    width: 300px;
+    flex-direction: column;
+}
+p {
+    text-align: center;
+    line-break: auto;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+#aboutheader {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: burlywood;
+}
+
 
 
 
