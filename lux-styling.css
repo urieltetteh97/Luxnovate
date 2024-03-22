@@ -1,6 +1,7 @@
 header{
     display: flex;
-    justify-content: center`;
+    justify-content: center;
+    
 }
 
 
@@ -22,10 +23,11 @@ body {
 }
 ul{
     list-style-type: none;
-    width: 800px;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .navdiv li a{
@@ -77,9 +79,9 @@ h4 {
 .about div {
     display: flex;
     flex-direction: column;
-    background-image: url("images/llhgrfc.jpg");
+    background-image: url("");
     width: auto;
-    height: auto;
+    height: 400px;
 }
 .aboutinfocontainer {
     display: inherit;
@@ -90,6 +92,8 @@ p {
     text-align: center;
     line-break: auto;
     font-size: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 h2{
     text-align: center;
