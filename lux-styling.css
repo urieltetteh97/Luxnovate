@@ -7,11 +7,17 @@ header{
 
 body {
     margin: 0;
+    
+    
+}
+.backgroundimghead{
     background-image: url("images/3 bedroom 001.png");
+    height: 800px;
+    width: 100%;
 }
 
 .navbar {
-    background-color: white;
+    background-color: #ffffff;
     opacity: 50%;
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -43,6 +49,7 @@ li a:hover{
 }
 
 .logo-container {
+    
     position: inherit;
     flex-direction: row;
     padding-left: 15px;
@@ -51,13 +58,18 @@ li a:hover{
 
 
 .Intro-header {
+   
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 80px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 283px;
+    border: 2px solid #ffffff86;
+    
+    
 }
 
 h2 {
@@ -71,7 +83,7 @@ h4 {
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     
 }
