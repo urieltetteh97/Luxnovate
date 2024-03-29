@@ -110,14 +110,21 @@ p {
     font-size: 20px;
     margin-left: 300px;
     margin-right: 300px;
+    color: rgb(255, 255, 255);
+}
+.aboutinfo {
+    margin-top: 30px;
+    line-break: strict;
+    text-align: justify;
 }
 
 #aboutheader {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: burlywood;
+    color: hsl(255, 197, 111);
 }
 
 .servicesection {
+    background-image: url();
     width: 100%;
     display: flex;
     justify-content: center;
