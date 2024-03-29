@@ -117,6 +117,17 @@ p {
     color: burlywood;
 }
 
+.servicesection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#serviceheader h2 {
+    
+}
+
 
 
 
