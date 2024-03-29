@@ -121,6 +121,7 @@ p {
 #aboutheader {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: hsl(255, 197, 111);
+    margin-top: 0px;
 }
 
 .servicesection {
