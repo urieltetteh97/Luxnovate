@@ -126,7 +126,7 @@ p {
 }
 
 .servicesection {
-    background-image: url();
+    background-color: grey;
     width: 100%;
     display: flex;
     flex-direction: row;
