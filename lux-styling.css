@@ -144,6 +144,38 @@ p {
     justify-content: center;
 }
 
+.ccontainer {
+    padding: 2rem;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 85rem;
+    margin: 0 auto;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: inset;
+    border-radius: 0.5rem;
+}
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
 
 
 
