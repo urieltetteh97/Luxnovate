@@ -186,6 +186,7 @@ p {
 }
 .slider-nav a:hover {
     opacity: 100%;
+    color: slategrey;
 }
 
 
