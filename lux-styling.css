@@ -156,7 +156,7 @@ p {
 .slider{
     display: flex;
     aspect-ratio: 16 / 9;
-    overflow: auto;
+    overflow: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     box-shadow: inset;
@@ -175,6 +175,17 @@ p {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
+}
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+    opacity: 100%;
 }
 
 
