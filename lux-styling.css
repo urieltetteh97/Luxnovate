@@ -70,6 +70,7 @@ li a:hover{
     border: 2px solid #ffffff86;
     
     
+    
 }
 
 h2 {
@@ -145,7 +146,7 @@ p {
 }
 
 .ccontainer {
-    padding: 2rem;
+    padding: 0rem;
 }
 
 .slider-wrapper {
@@ -182,7 +183,7 @@ p {
     border-radius: 50%;
     background-color: #ffffff;
     opacity: 0.75;
-    transition: opacity ease 250ms;
+    transition: opacity ease 200ms;
 }
 .slider-nav a:hover {
     opacity: 100%;
