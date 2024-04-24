@@ -67,14 +67,18 @@ li a:hover{
     margin-left: 0px;
     margin-right: 0px;
     padding-top: 283px;
-    border-top: #ffffff;
+    border-top: #000000;
     
     
     
 }
-.Intro-header h2 h4{
-    border: 5px solid black;
-    border-radius: 20px;
+
+.borderstyle {
+    border: 3px solid grey;
+    border-radius: 25px;
+    background-color: white;
+    opacity: 90%;
+    
 }
 
 h2 {
@@ -90,8 +94,9 @@ h4 {
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-top: 10px;
+    margin-left: 20px;
     
 }
 .about{
