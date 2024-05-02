@@ -152,10 +152,13 @@ p {
     padding-top: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
+    color: #000000;
+    font-weight: 600;
 }
 
 .ccontainer {
     padding: 0rem;
+    background-color: darkgrey;
 }
 
 .slider-wrapper {
@@ -210,5 +213,19 @@ p {
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: darkorange;
+}
+
+.contactdetails {
+
+}
+
+#contactinst{
+
+}
+#contactlinked{
+
+}
+#contactface{
+
 }
 
