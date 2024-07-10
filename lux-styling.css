@@ -1,12 +1,16 @@
+
 header{
     display: flex;
     justify-content: center;
+    width: auto;
     
 }
 
 
 body {
     margin: 0;
+    width: 100%;
+
     
     
 }
@@ -32,7 +36,7 @@ ul{
     list-style-type: none;
     width: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
 }
@@ -67,7 +71,7 @@ li a:hover{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    padding-top: 283px;
+    padding-top: 250px;
     border-top: #000000;
     
     
@@ -144,16 +148,7 @@ p {
     padding-top: 70px;
 }
 
-.servicesection p h2{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 
-}
-.servicesection  {
-    
-}
 
 #serviceheader h2 {
     justify-content: center;
@@ -171,6 +166,7 @@ p {
 .ccontainer {
     padding: 0rem;
     background-color: darkgrey;
+    margin-top: -20px;
 }
 
 .slider-wrapper {
@@ -238,7 +234,8 @@ p {
 }
 
 .imglist li{
+    padding-right: 30%;
     display: inherit;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
