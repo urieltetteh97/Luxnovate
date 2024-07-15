@@ -2,14 +2,15 @@
 header{
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 100%;
     
 }
 
 
 body {
-    margin: 0;
+
     width: 100%;
+
 
     
     
@@ -219,7 +220,7 @@ p {
 #contactus h2 {
     padding-top: 25px;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     height: 40%;
     
 }
@@ -234,8 +235,8 @@ p {
 }
 
 .imglist li{
-    padding-right: 30%;
+    
     display: inherit;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
