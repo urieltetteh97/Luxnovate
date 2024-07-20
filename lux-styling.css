@@ -215,13 +215,14 @@ p {
     background-color: darkgray;
     display: flex;
     flex-direction: row;
+    padding-left: 25%;
 }
 
 #contactus h2 {
     padding-top: 25px;
     justify-content: center;
     width: 50%;
-    height: 40%;
+    height: 70%;
     
 }
 #contactus li {
@@ -229,6 +230,7 @@ p {
 }
 .contactheader {
     flex-direction: column;
+    column-width: 30%;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 197, 111);
