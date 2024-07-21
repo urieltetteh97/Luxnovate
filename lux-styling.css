@@ -9,7 +9,7 @@ header{
 
 body {
 
-    width: 100%;
+    width: auto;
 
 
     
@@ -31,11 +31,12 @@ body {
 .navdiv{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 ul{
     padding-right: 25%;
     list-style-type: none;
-    width: 75%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
